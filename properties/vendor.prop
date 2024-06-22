@@ -45,3 +45,5 @@ debug.sdm.support_writeback=0
 # Kernel Idle Timer
 ro.surface_flinger.support_kernel_idle_timer=true
 
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
