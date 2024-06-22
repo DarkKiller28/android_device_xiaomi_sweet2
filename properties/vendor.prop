@@ -101,3 +101,6 @@ persist.vendor.sensors.debug.hal=0
 # ScrollOptimizer
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
+
+# System properties
+ro.product.property_source_order=odm,vendor,product,system_ext,system
