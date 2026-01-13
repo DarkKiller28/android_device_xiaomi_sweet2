@@ -7,6 +7,13 @@ persist.vendor.audio.voicecall.speaker.stereo=true
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=true
 
+# Dex2oat
+dalvik.vm.dex2oat64.enabled=true
+dalvik.vm.dex2oat-cpu-set=4,5,6,7
+dalvik.vm.dex2oat-threads=4
+dalvik.vm.image-dex2oat-cpu-set=4,5,6,7
+dalvik.vm.image-dex2oat-threads=4
+
 # Display
 debug.sf.frame_rate_multiple_threshold=120
 ro.hardware.hwcomposer=sweet
