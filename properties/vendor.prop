@@ -22,3 +22,6 @@ persist.vendor.fingerprint.sensor_location=1080|990|200|local:463094671121818457
 
 # Fluence
 ro.vendor.audio.sdk.fluencetype=fluence
+
+# Media
+debug.sdm.support_writeback=0
