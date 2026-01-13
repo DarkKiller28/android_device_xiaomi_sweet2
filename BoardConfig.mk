@@ -45,6 +45,9 @@ TARGET_SCREEN_DENSITY := 440
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2023-11-01
 
