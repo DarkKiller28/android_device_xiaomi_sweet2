@@ -75,6 +75,9 @@ debug.sf.enable_gl_backpressure=0
 # Performance
 debug.performance.tuning=1
 
+# Perf
+vendor.perf.framepacing.enable=1
+
 # Ram
 persist.sys.purgeable_assets=1
 
