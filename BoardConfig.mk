@@ -28,6 +28,7 @@ TARGET_GLOBAL_THINLTO := true
 
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
+TARGET_USES_VULKAN := true
 
 # Kernel
 TARGET_KERNEL_CONFIG := sweet_defconfig
