@@ -7,6 +7,9 @@ persist.vendor.audio.voicecall.speaker.stereo=true
 vendor.audio.feature.compr_voip.enable=false
 vendor.voice.path.for.pcm.voip=true
 
+# Blur
+ro.sf.blurs_are_expensive=1
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=4,5,6,7
