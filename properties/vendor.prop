@@ -38,6 +38,7 @@ debug.sdm.support_writeback=0
 # Graphics
 ro.config.avoid_gfx_accel=true
 ro.surface_flinger.support_kernel_idle_timer=true
+debug.sf.enable_gl_backpressure=0
 
 # Sensors
 persist.vendor.sensors.debug.hal=0
