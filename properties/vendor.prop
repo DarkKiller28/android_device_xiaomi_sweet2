@@ -25,3 +25,6 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Media
 debug.sdm.support_writeback=0
+
+# Graphics
+ro.config.avoid_gfx_accel=true
