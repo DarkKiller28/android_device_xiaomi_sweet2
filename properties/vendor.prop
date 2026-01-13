@@ -19,6 +19,9 @@ ro.vold.umsdirtyratio=20
 # Blur
 ro.sf.blurs_are_expensive=1
 
+# Camera
+vendor.camera.aux.packagelist=com.snapchat.android
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 dalvik.vm.dex2oat-cpu-set=4,5,6,7
