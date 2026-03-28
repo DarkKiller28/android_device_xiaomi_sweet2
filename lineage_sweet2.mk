@@ -32,3 +32,18 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 
 TARGET_ENABLE_BLUR := true
+
+# Maintainer Stuff
+AXION_MAINTAINER := ℝ𝕖𝕧𝕖𝕣𝕤𝕖𝕕ℝ𝕦𝕝𝕖𝕣༆𖣘(Soner)
+
+# Axion Stuff
+AXION_CAMERA_REAR_INFO := 108,8,2,2
+AXION_CAMERA_FRONT_INFO := 16
+AXION_PROCESSOR := SDM732G
+TARGET_SUPPORTED_REFRESH_RATES := 60,90,120
+TARGET_INCLUDES_LOS_PREBUILTS := true
+TARGET_INCLUDE_AXFX := false
+PRODUCT_NO_CAMERA := false
+
+# Enable activity open override fix for low-end devices or devices affected by activity open/exit freezing issue
+PERF_ANIM_OVERRIDE := true

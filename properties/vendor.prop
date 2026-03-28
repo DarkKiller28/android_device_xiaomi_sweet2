@@ -102,5 +102,11 @@ persist.vendor.sensors.debug.hal=0
 persist.sys.perf.scroll_opt=true
 persist.sys.perf.scroll_opt.heavy_app=1
 
+# Heavy app handling mode
+# 0 - Disable heavy app classification
+# 1 - Enable dynamic detection (based on frame duration and buffer load)
+# 2 - Treat all apps as heavy for performance
+persist.sys.perf.scroll_opt.heavy_app = 1
+
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
