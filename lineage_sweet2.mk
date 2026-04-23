@@ -29,3 +29,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Redmi/sweet_global2/sweet:13/TKQ1.221114.001/V816.0.13.0.THGMIXM:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
+
+#Evo Flags
+EVO_BUILD_TYPE := Unofficial
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_ACCORD := false
+BUILD_BCR := true
+BYPASS_CHARGE_SUPPORTED := true
+WITH_GMS := true
+TARGET_DISABLE_EPPE := true
