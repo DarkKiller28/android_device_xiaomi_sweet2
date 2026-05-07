@@ -25,3 +25,7 @@ ro.vendor.audio.sdk.fluencetype=fluence
 
 # Media
 debug.sdm.support_writeback=0
+
+# Kernel Idle Timer
+ro.surface_flinger.support_kernel_idle_timer=true
+
