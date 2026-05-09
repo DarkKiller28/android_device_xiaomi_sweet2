@@ -11,14 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common PixelOS stuff.
+$(call inherit-product, vendor/custom/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Redmi
 PRODUCT_DEVICE := sweet2
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := 2209116AG
-PRODUCT_NAME := lineage_sweet2
+PRODUCT_NAME := custom_sweet2
 PRODUCT_SYSTEM_DEVICE := sweet
 PRODUCT_SYSTEM_NAME := sweet_global2
 
