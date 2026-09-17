@@ -33,4 +33,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # InfinityX
 INFINITY_MAINTAINER := "ℝ𝕖𝕧𝕖𝕣𝕤𝕖𝕕ℝ𝕦𝕝𝕖𝕣༆𖣘(Soner)"
 INFINITY_BUILD_TYPE := Community
-WITH_GAPPS := true
+WITH_GAPPS := false
